@@ -31,25 +31,12 @@ Key Features
 Screenshots
 -----------
 Preview of the UI (click to open full-size):
-
-- Dashboard — snapshots/screenshots/dashboard.png  
-  ![Dashboard](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/dashboard.png)
+  <img width="926" height="634" alt="Screenshot 2025-10-25 223722" src="https://github.com/user-attachments/assets/0dedd2bd-60ac-480d-9d00-699bc3267b24" />
+  <img width="1149" height="912" alt="Screenshot 2025-10-25 223708" src="https://github.com/user-attachments/assets/07831e4b-1d5a-41c8-ac59-1194ff86d71a" />
   <img width="1177" height="878" alt="Screenshot 2025-10-25 224158" src="https://github.com/user-attachments/assets/3bd7ac67-c7d3-4055-8a4f-e29367ec9133" />
-
-
-- Add Task modal — snapshots/screenshots/add-task.png  
-  ![Add Task](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/add-task.png)
-
-- Progress visualization — snapshots/screenshots/progress-visualization.png  
-  ![Progress Viz](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/progress-visualization.png)
-
-- Settings — snapshots/screenshots/settings.png  
-  ![Settings](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/settings.png)
-
-- Mobile view — snapshots/screenshots/mobile-view.png  
-  ![Mobile](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/mobile-view.png)
-
-(If any preview images are missing in your browser, use the Download Screenshots section below.)
+  <img width="1394" height="901" alt="Screenshot 2025-10-25 223555" src="https://github.com/user-attachments/assets/02631512-bec3-42a4-8737-5c08913f36d4" />
+  <img width="1428" height="910" alt="Screenshot 2025-10-25 223512" src="https://github.com/user-attachments/assets/4388bda3-7200-47a6-ad01-9b6499867ab5" />
+  <img width="1467" height="909" alt="Screenshot 2025-10-25 223432" src="https://github.com/user-attachments/assets/6c309bd2-1059-4643-abba-9043ffc7ebf7" />
 
 Tech Stack & Icons
 ------------------
