@@ -33,19 +33,19 @@ Screenshots
 Preview of the UI (click to open full-size):
 
 - Dashboard — snapshots/screenshots/dashboard.png  
-  ![Dashboard](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png)
+  ![Dashboard](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/dashboard.png)
 
 - Add Task modal — snapshots/screenshots/add-task.png  
-  ![Add Task](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/add-task.png)
+  ![Add Task](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/add-task.png)
 
 - Progress visualization — snapshots/screenshots/progress-visualization.png  
-  ![Progress Viz](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/progress-visualization.png)
+  ![Progress Viz](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/progress-visualization.png)
 
 - Settings — snapshots/screenshots/settings.png  
-  ![Settings](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/settings.png)
+  ![Settings](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/settings.png)
 
 - Mobile view — snapshots/screenshots/mobile-view.png  
-  ![Mobile](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/mobile-view.png)
+  ![Mobile](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/mobile-view.png)
 
 (If any preview images are missing in your browser, use the Download Screenshots section below.)
 
