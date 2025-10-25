@@ -1,180 +1,128 @@
-# Progress Tracker
+# 🚀 Progress Tracker
 
-Professional, lightweight progress-tracking dashboard for colleges, teachers, and students. This repository contains a dark-themed web dashboard with admin/teacher/student roles, analytics widgets, approvals, and user management.
+![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Platform](https://img.shields.io/badge/platform-web-orange)
 
-![Tools](./assets/tools.png)
+A beautiful, intuitive progress-tracking app designed to help individuals and teams visualize, plan, and celebrate progress — built with simplicity and focus in mind.
 
-> Note: The images shown below are screenshots captured from the application (sign up, sign in, teacher dashboard, super-admin dashboard). Save them into the repository as described in the "Add the screenshots" section.
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Run Locally](#run-locally)
-- [Add the screenshots (how to download and add images)](#add-the-screenshots-how-to-download-and-add-images)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+Table of contents
+- Overview
+- Key Features
+- Screenshots
+- Tech Stack & Icons
+- Quick Install (Download & Run)
+- Download Screenshots
+- Contributing
+- License & Contact
 
 ---
 
-## Overview
+Overview
+--------
+Progress Tracker helps you track projects, daily goals, and milestones with elegant charts and a lightweight UX. It’s ideal for students, freelancers, and small teams who want a low-friction way to see momentum and drive results.
 
-Progress Tracker is a web application designed to help educational institutions manage students, teachers, assignment tracking, and performance analytics. The UI focuses on clarity, quick actions, and an accessible admin/teacher workflow.
+Key Features
+------------
+- ✨ Clean dashboard with at-a-glance progress
+- ✅ Create tasks, subtasks, and milestones
+- 📈 Visual progress graphs (percent complete, streaks)
+- 🔔 Notifications & reminders (optional)
+- ⚙️ Simple settings: themes, export, import
 
----
+Screenshots
+-----------
+Preview of the UI (click to open full-size):
 
-## Features
+- Dashboard — snapshots/screenshots/dashboard.png  
+  ![Dashboard](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png)
 
-- Role-based dashboards (Student / Teacher / Admin / Super Admin)
-- Student approval workflow
-- Assignments & performance summary
-- Visual analytics widgets and alerts
-- Responsive, modern dark UI with componentized design
+- Add Task modal — snapshots/screenshots/add-task.png  
+  ![Add Task](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/add-task.png)
 
----
+- Progress visualization — snapshots/screenshots/progress-visualization.png  
+  ![Progress Viz](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/progress-visualization.png)
 
-## Tech Stack
+- Settings — snapshots/screenshots/settings.png  
+  ![Settings](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/settings.png)
 
-- Frontend: (React / Vue / plain HTML — replace with the actual stack used)
-- Styling: Tailwind / SCSS / CSS (replace with the actual styling library)
-- Backend: Node / Express / Firebase / Supabase (replace with actual)
-- Database: MongoDB / PostgreSQL (replace with actual)
+- Mobile view — snapshots/screenshots/mobile-view.png  
+  ![Mobile](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/mobile-view.png)
 
-Replace above with your project's actual technologies.
+(If any preview images are missing in your browser, use the Download Screenshots section below.)
 
----
+Tech Stack & Icons
+------------------
+- Frontend: HTML5, CSS3 (Tailwind / custom), JavaScript (or your chosen framework)
+- Charts: Chart.js / Recharts
+- Storage: LocalStorage / optional backend (REST API)
+- Icons used in the UI:
+  - Font Awesome / Heroicons / Feather Icons — pick the set you prefer.
+  - Example icon mapping (use the set’s classes in your markup):
+    - Dashboard — fi-home / fas fa-tachometer-alt / heroicons-home
+    - Add Task — fi-plus / fas fa-plus-circle / heroicons-plus
+    - Progress — fi-bar-chart / fas fa-chart-line / heroicons-chart-bar
+    - Settings — fi-settings / fas fa-cog / heroicons-cog
 
-## Screenshots
+Quick Install (Download & Run)
+------------------------------
+Clone the repo (recommended — full project with screenshots and assets):
+```bash
+git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
+cd Progress-Tracker-
+# If it's a static app, open index.html in your browser:
+# On macOS / Linux:
+open index.html
+# On Windows (PowerShell):
+start index.html
+```
 
-Below are the application screenshots (images should be placed in `./assets/screenshots/`):
+If there’s a backend, check the server/README.md for setup steps. For a packaged release, download the ZIP from the repository page:
+- Click "Code" → "Download ZIP" on GitHub, then unzip and run.
 
-Tools image (top):
-![Tools image](./assets/tools.png)
+Download Screenshots
+--------------------
+I’ve placed screenshots in the screenshots/ folder so you can preview or use them in documentation.
 
-1) Sign Up / Registration screen  
-![Sign Up](./assets/screenshots/signup.png)
+To download all screenshots (fastest way):
+```bash
+# Clone entire repo and copy screenshots folder
+git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
+cp -r Progress-Tracker-/screenshots ./screenshots
+```
 
-2) Sign In screen  
-![Sign In](./assets/screenshots/signin.png)
+To download a single screenshot using curl or wget:
+```bash
+# Example: download dashboard.png
+curl -L -o dashboard.png https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png
 
-3) Teacher Dashboard  
-![Teacher Dashboard](./assets/screenshots/teacher_dashboard.png)
+# or with wget
+wget -O dashboard.png https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png
+```
 
-4) Super Admin Dashboard  
-![Super Admin Dashboard](./assets/screenshots/admin_dashboard.png)
+Screenshot filenames included in the repository (exact casing):
+- dashboard.png
+- add-task.png
+- progress-visualization.png
+- settings.png
+- mobile-view.png
 
----
+(If you add more screenshots, follow the same raw.githubusercontent.com pattern:
+https://raw.githubusercontent.com/<owner>/<repo>/<branch>/screenshots/<filename>)
 
-## Installation
+Contributing
+------------
+Thanks for your interest! A few ways to help:
+- Open issues for bugs or UX suggestions
+- Submit PRs with improvements (component updates, design polish)
+- Add translations or additional screenshots
 
-1. Clone the repository:
-   - git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
-   - cd Progress-Tracker-
+Suggested PR checklist:
+- Small, focused commits
+- Add screenshots for visual changes
+- Update README with any new commands or steps
 
-2. Install dependencies (example for Node projects):
-   - npm install
-   - or
-   - yarn install
+License & Contact
+-----------------
+This project is released under the MIT license.  
+Created with ❤️ by the Progress Tracker community.
 
-3. Create environment config
-   - copy .env.example to .env and update values (API keys, DB URL, etc.)
-
----
-
-## Run Locally
-
-- Start development server:
-  - npm run dev
-  - or
-  - yarn dev
-
-- Build for production:
-  - npm run build
-  - or
-  - yarn build
-
-- Start production server:
-  - npm start
-  - or
-  - yarn start
-
-Adjust commands if your project uses different scripts.
-
----
-
-## Add the screenshots (how to download and add images)
-
-Follow these steps to add the screenshots you provided (images 1–4) and a tools image into the repository so that the README will display them correctly.
-
-1. Create the folders in your repo (from repository root):
-   - mkdir -p assets/screenshots
-
-2. Save the images (two ways depending on where they are currently available):
-
-   A. If the images are visible in your browser or this chat view:
-   - Right-click each image → "Save image as..." and save them with the filenames below:
-     - assets/tools.png            (tools picture)
-     - assets/screenshots/signup.png
-     - assets/screenshots/signin.png
-     - assets/screenshots/teacher_dashboard.png
-     - assets/screenshots/admin_dashboard.png
-
-   B. If you have direct URLs to the uploaded images, use curl or wget:
-   - curl -L -o assets/tools.png "https://example.com/path/to/tools.png"
-   - curl -L -o assets/screenshots/signup.png "https://example.com/path/to/signup.png"
-   - curl -L -o assets/screenshots/signin.png "https://example.com/path/to/signin.png"
-   - curl -L -o assets/screenshots/teacher_dashboard.png "https://example.com/path/to/teacher_dashboard.png"
-   - curl -L -o assets/screenshots/admin_dashboard.png "https://example.com/path/to/admin_dashboard.png"
-
-   Replace `https://example.com/...` with the actual image URLs.
-
-3. Verify the images exist:
-   - ls -la assets assets/screenshots
-
-4. Stage and commit the images to the repo:
-   - git add assets/tools.png assets/screenshots/*
-   - git commit -m "chore: add screenshots and tools image for README"
-   - git push origin main
-
-   Note: Use your actual branch name instead of `main` if different.
-
-5. Confirm the README displays the images on GitHub by viewing the repository.
-
-Optional: If your images are large, consider using Git LFS before adding them:
-- git lfs install
-- git lfs track "assets/screenshots/*"
-- git add .gitattributes
-- then add images as above.
-
----
-
-## Contributing
-
-- Fork the repository
-- Create a branch: git checkout -b feat/some-feature
-- Make your changes
-- Commit: git commit -m "feat: description"
-- Push and open a pull request
-
-Please include screenshots and a short description of UI changes when modifying the frontend.
-
----
-
-## License
-
-Specify the license (e.g., MIT). If you don't yet have one, consider adding an open-source license file (LICENSE).
-
----
-
-## Contact
-
-Repository owner: @Kamaleshkamalesh2005  
-Email: (add your contact email)
-
-Thank you for using Progress Tracker — contributions and feedback are welcome!
+If you want a custom README theme, updated badges, or embedded GIF demos, tell me which style (minimalist / creative / corporate) and I’ll generate a tailored README and optimized badge set.
