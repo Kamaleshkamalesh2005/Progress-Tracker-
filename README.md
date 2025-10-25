@@ -34,6 +34,8 @@ Preview of the UI (click to open full-size):
 
 - Dashboard — snapshots/screenshots/dashboard.png  
   ![Dashboard](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/dashboard.png)
+  <img width="1177" height="878" alt="Screenshot 2025-10-25 224158" src="https://github.com/user-attachments/assets/3bd7ac67-c7d3-4055-8a4f-e29367ec9133" />
+
 
 - Add Task modal — snapshots/screenshots/add-task.png  
   ![Add Task](https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshot/add-task.png)
