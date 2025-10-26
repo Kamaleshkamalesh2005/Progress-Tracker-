@@ -1,4 +1,4 @@
-# 🚀 Progress Tracker 
+# 🚀 Progress Tracker
 
 ![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Platform](https://img.shields.io/badge/platform-web-orange)
 
