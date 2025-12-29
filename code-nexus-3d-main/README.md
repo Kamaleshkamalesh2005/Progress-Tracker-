@@ -79,7 +79,7 @@ This project leverages modern web technologies:
 - ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.18.2-0055FF?style=flat-square&logo=framer&logoColor=white) **Framer Motion** - Smooth animations
 - ![Three.js](https://img.shields.io/badge/Three.js-0.170.0-000000?style=flat-square&logo=three.js&logoColor=white) **Three.js** - 3D graphics
 - ![React Three Fiber](https://img.shields.io/badge/R3F-8.18.0-000000?style=flat-square) **React Three Fiber** - React renderer for Three.js
-- ![Recharts](https://img.shields.io/badge/Recharts-2.15.4-8884d8?style=flat-square) **Recharts** - Data visualization
+- ![Recharts](https://img.shields.io/badge/Recharts-2.15.4-22B5BF?style=flat-square) **Recharts** - Data visualization
 
 ### **State & Data Management**
 - ![React Query](https://img.shields.io/badge/React_Query-5.83.0-FF4154?style=flat-square&logo=react-query&logoColor=white) **TanStack React Query** - Data fetching & caching

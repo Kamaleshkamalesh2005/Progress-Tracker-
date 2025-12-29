@@ -90,7 +90,7 @@ Built with cutting-edge technologies, Progress Tracker offers an intuitive inter
 | **Three.js** | 3D Graphics | ![Three.js](https://img.shields.io/badge/Three.js-0.170.0-000000?style=flat-square&logo=three.js&logoColor=white) |
 | **React Three Fiber** | React Renderer for Three.js | ![R3F](https://img.shields.io/badge/R3F-8.18.0-000000?style=flat-square) |
 | **React Three Drei** | Helpers for R3F | ![Drei](https://img.shields.io/badge/Drei-9.122.0-000000?style=flat-square) |
-| **Recharts** | Data Visualization | ![Recharts](https://img.shields.io/badge/Recharts-2.15.4-8884d8?style=flat-square) |
+| **Recharts** | Data Visualization | ![Recharts](https://img.shields.io/badge/Recharts-2.15.4-22B5BF?style=flat-square) |
 
 </div>
 
@@ -188,6 +188,8 @@ bun build
 The built files will be in the `dist` directory.
 
 ### Running Linter
+
+Run ESLint to check code quality, syntax errors, and best practices:
 
 ```bash
 npm run lint
