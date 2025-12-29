@@ -1,117 +1,340 @@
-# 🚀 Progress Tracker
+<div align="center">
 
-![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Platform](https://img.shields.io/badge/platform-web-orange)
+# 🎯 Progress Tracker
 
-A beautiful, intuitive progress-tracking app designed to help individuals and teams visualize, plan, and celebrate progress — built with simplicity and focus in mind.
+### *A Comprehensive Platform for Tracking Learning Progress Across Multiple Coding Platforms*
 
-Table of contents
-- Overview
-- Key Features
-- Screenshots
-- Tech Stack & Icons
-- Quick Install (Download & Run)
-- Download Screenshots
-- Contributing
-- License & Contact
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.19-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+[Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
+
+</div>
 
 ---
 
-Overview
---------
-Progress Tracker helps you track projects, daily goals, and milestones with elegant charts and a lightweight UX. It’s ideal for students, freelancers, and small teams who want a low-friction way to see momentum and drive results.
+## 📋 Overview
 
-Key Features
-------------
-- ✨ Clean dashboard with at-a-glance progress
-- ✅ Create tasks, subtasks, and milestones
-- 📈 Visual progress graphs (percent complete, streaks)
-- 🔔 Notifications & reminders (optional)
-- ⚙️ Simple settings: themes, export, import
+**Progress Tracker** is a modern, feature-rich web application designed to help students, teachers, and administrators monitor and manage learning progress across various coding platforms including LeetCode, GeeksforGeeks, HackerRank, CodeChef, and more.
 
-Screenshots
------------
-Preview of the UI (click to open full-size):
-  <img width="926" height="634" alt="Screenshot 2025-10-25 223722" src="https://github.com/user-attachments/assets/0dedd2bd-60ac-480d-9d00-699bc3267b24" />
-  <img width="1149" height="912" alt="Screenshot 2025-10-25 223708" src="https://github.com/user-attachments/assets/07831e4b-1d5a-41c8-ac59-1194ff86d71a" />
-  <img width="1177" height="878" alt="Screenshot 2025-10-25 224158" src="https://github.com/user-attachments/assets/3bd7ac67-c7d3-4055-8a4f-e29367ec9133" />
-  <img width="1394" height="901" alt="Screenshot 2025-10-25 223555" src="https://github.com/user-attachments/assets/02631512-bec3-42a4-8737-5c08913f36d4" />
-  <img width="1428" height="910" alt="Screenshot 2025-10-25 223512" src="https://github.com/user-attachments/assets/4388bda3-7200-47a6-ad01-9b6499867ab5" />
-  <img width="1467" height="909" alt="Screenshot 2025-10-25 223432" src="https://github.com/user-attachments/assets/6c309bd2-1059-4643-abba-9043ffc7ebf7" />
+Built with cutting-edge technologies, Progress Tracker offers an intuitive interface with role-based access control, real-time analytics, and comprehensive performance tracking capabilities.
 
-Tech Stack & Icons
-------------------
-- Frontend: HTML5, CSS3 (Tailwind / custom), JavaScript (or your chosen framework)
-- Charts: Chart.js / Recharts
-- Storage: LocalStorage / optional backend (REST API)
-- Icons used in the UI:
-  - Font Awesome / Heroicons / Feather Icons — pick the set you prefer.
-  - Example icon mapping (use the set’s classes in your markup):
-    - Dashboard — fi-home / fas fa-tachometer-alt / heroicons-home
-    - Add Task — fi-plus / fas fa-plus-circle / heroicons-plus
-    - Progress — fi-bar-chart / fas fa-chart-line / heroicons-chart-bar
-    - Settings — fi-settings / fas fa-cog / heroicons-cog
+---
 
-Quick Install (Download & Run)
-------------------------------
-Clone the repo (recommended — full project with screenshots and assets):
+## ✨ Features
+
+### 🎓 **For Students**
+- 📊 Track progress across 10+ coding platforms (LeetCode, GeeksforGeeks, HackerRank, CodeChef, etc.)
+- 📈 Visualize completion rates, scores, and platform usage with interactive charts
+- 🎯 Set and monitor learning goals
+- 📝 Question tracker for coding problems solved
+- 💻 GitHub contribution tracking
+
+### 👨‍🏫 **For Teachers**
+- 👥 Monitor student progress across departments
+- 📢 Post announcements and updates
+- 📊 View class-wide performance analytics
+- ✅ Manage student submissions and track engagement
+
+### 🔐 **For Admins & Super Admins**
+- 🏢 Department and institution management
+- 👤 User role management and approval workflows
+- 📈 System-wide analytics and reporting
+- 🔔 Announcement system for staff and students
+- ⚙️ Platform configuration and settings
+
+### 🎨 **General Features**
+- 🌓 Dark/Light theme support
+- 📱 Fully responsive design
+- 🔒 Secure authentication system
+- ⚡ Fast and optimized performance
+- 🎭 Beautiful 3D animations powered by Three.js
+- 🔄 Real-time data synchronization
+
+---
+
+## 🛠 Tech Stack
+
+### **Frontend**
+<div align="center">
+
+| Technology | Purpose | Badge |
+|------------|---------|-------|
+| **React 18** | UI Library | ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react&logoColor=white) |
+| **TypeScript** | Type Safety | ![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Vite** | Build Tool | ![Vite](https://img.shields.io/badge/Vite-5.4.19-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Tailwind CSS** | Styling | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+
+</div>
+
+### **UI Components & Libraries**
+<div align="center">
+
+| Library | Purpose |
+|---------|---------|
+| ![Radix UI](https://img.shields.io/badge/Radix_UI-Components-161618?style=flat-square) | Accessible UI primitives |
+| ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-Components-000000?style=flat-square) | Pre-built components |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-0055FF?style=flat-square&logo=framer&logoColor=white) | Animation library |
+| ![Lucide React](https://img.shields.io/badge/Lucide-Icons-F56565?style=flat-square) | Icon library |
+
+</div>
+
+### **3D Graphics & Visualization**
+<div align="center">
+
+| Technology | Purpose | Badge |
+|------------|---------|-------|
+| **Three.js** | 3D Graphics | ![Three.js](https://img.shields.io/badge/Three.js-0.170.0-000000?style=flat-square&logo=three.js&logoColor=white) |
+| **React Three Fiber** | React Renderer for Three.js | ![R3F](https://img.shields.io/badge/R3F-8.18.0-000000?style=flat-square) |
+| **React Three Drei** | Helpers for R3F | ![Drei](https://img.shields.io/badge/Drei-9.122.0-000000?style=flat-square) |
+| **Recharts** | Data Visualization | ![Recharts](https://img.shields.io/badge/Recharts-2.15.4-22B5BF?style=flat-square) |
+
+</div>
+
+### **State Management & Data**
+<div align="center">
+
+| Technology | Purpose |
+|------------|---------|
+| ![React Query](https://img.shields.io/badge/React_Query-5.83.0-FF4154?style=flat-square&logo=react-query&logoColor=white) | Data fetching & caching |
+| ![Supabase](https://img.shields.io/badge/Supabase-2.76.1-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | Backend & Authentication |
+| ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-7.61.1-EC5990?style=flat-square) | Form management |
+| ![Zod](https://img.shields.io/badge/Zod-3.25.76-3E67B1?style=flat-square) | Schema validation |
+
+</div>
+
+### **Routing & Navigation**
+- **React Router DOM 6.30.1** - Client-side routing
+- **React Router** - Navigation management
+
+### **Development Tools**
+<div align="center">
+
+| Tool | Purpose | Badge |
+|------|---------|-------|
+| **ESLint** | Linting | ![ESLint](https://img.shields.io/badge/ESLint-9.32.0-4B32C3?style=flat-square&logo=eslint&logoColor=white) |
+| **PostCSS** | CSS Processing | ![PostCSS](https://img.shields.io/badge/PostCSS-8.5.6-DD3A0A?style=flat-square&logo=postcss&logoColor=white) |
+| **Autoprefixer** | CSS Vendor Prefixes | ![Autoprefixer](https://img.shields.io/badge/Autoprefixer-10.4.21-DD3735?style=flat-square) |
+
+</div>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- **Node.js** (v18 or higher)
+- **npm** or **yarn** or **bun**
+- **Git**
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
+   cd Progress-Tracker-
+   ```
+
+2. **Navigate to the main project directory**
+   ```bash
+   cd code-nexus-3d-main
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   bun install
+   ```
+
+4. **Set up environment variables**
+   
+   Create a `.env` file in the root of `code-nexus-3d-main` directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_key
+   ```
+
+5. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   bun dev
+   ```
+
+6. **Open your browser**
+   
+   Navigate to `http://localhost:8080`
+
+### Building for Production
+
 ```bash
-git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
-cd Progress-Tracker-
-# If it's a static app, open index.html in your browser:
-# On macOS / Linux:
-open index.html
-# On Windows (PowerShell):
-start index.html
+npm run build
+# or
+yarn build
+# or
+bun build
 ```
 
-If there’s a backend, check the server/README.md for setup steps. For a packaged release, download the ZIP from the repository page:
-- Click "Code" → "Download ZIP" on GitHub, then unzip and run.
+The built files will be in the `dist` directory.
 
-Download Screenshots
---------------------
-I’ve placed screenshots in the screenshots/ folder so you can preview or use them in documentation.
+### Running Linter
 
-To download all screenshots (fastest way):
+Run ESLint to check code quality, syntax errors, and best practices:
+
 ```bash
-# Clone entire repo and copy screenshots folder
-git clone https://github.com/Kamaleshkamalesh2005/Progress-Tracker-.git
-cp -r Progress-Tracker-/screenshots ./screenshots
+npm run lint
+# or
+yarn lint
+# or
+bun lint
 ```
 
-To download a single screenshot using curl or wget:
-```bash
-# Example: download dashboard.png
-curl -L -o dashboard.png https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png
+---
 
-# or with wget
-wget -O dashboard.png https://raw.githubusercontent.com/Kamaleshkamalesh2005/Progress-Tracker-/main/screenshots/dashboard.png
+## 📸 Screenshots
+
+<div align="center">
+
+### Dashboard Overview
+<img src="https://github.com/user-attachments/assets/6c309bd2-1059-4643-abba-9043ffc7ebf7" alt="Dashboard" width="800"/>
+
+### Student Progress Tracking
+<img src="https://github.com/user-attachments/assets/4388bda3-7200-47a6-ad01-9b6499867ab5" alt="Student Dashboard" width="800"/>
+
+### Analytics & Visualization
+<img src="https://github.com/user-attachments/assets/02631512-bec3-42a4-8737-5c08913f36d4" alt="Analytics" width="800"/>
+
+### Platform Integration
+<img src="https://github.com/user-attachments/assets/07831e4b-1d5a-41c8-ac59-1194ff86d71a" alt="Platform Integration" width="800"/>
+
+### Question Tracker
+<img src="https://github.com/user-attachments/assets/0dedd2bd-60ac-480d-9d00-699bc3267b24" alt="Question Tracker" width="800"/>
+
+### Admin Panel
+<img src="https://github.com/user-attachments/assets/3bd7ac67-c7d3-4055-8a4f-e29367ec9133" alt="Admin Panel" width="800"/>
+
+</div>
+
+---
+
+## 📁 Project Structure
+
+```
+Progress-Tracker-/
+├── code-nexus-3d-main/           # Main application directory
+│   ├── src/
+│   │   ├── components/           # Reusable React components
+│   │   ├── pages/               # Page components
+│   │   │   ├── dashboard/       # Dashboard pages for different roles
+│   │   │   ├── Auth.tsx         # Authentication page
+│   │   │   └── Index.tsx        # Landing page
+│   │   ├── hooks/               # Custom React hooks
+│   │   ├── lib/                 # Utility libraries
+│   │   ├── services/            # API services
+│   │   ├── utils/               # Utility functions
+│   │   └── integrations/        # Third-party integrations
+│   ├── public/                  # Static assets
+│   ├── backend/                 # Backend configuration
+│   ├── supabase/                # Supabase configuration
+│   └── package.json
+├── screenshot/                   # Application screenshots
+└── README.md                     # This file
 ```
 
-Screenshot filenames included in the repository (exact casing):
-- dashboard.png
-- add-task.png
-- progress-visualization.png
-- settings.png
-- mobile-view.png
+---
 
-(If you add more screenshots, follow the same raw.githubusercontent.com pattern:
-https://raw.githubusercontent.com/<owner>/<repo>/<branch>/screenshots/<filename>)
+## 👥 User Roles
 
-Contributing
-------------
-Thanks for your interest! A few ways to help:
-- Open issues for bugs or UX suggestions
-- Submit PRs with improvements (component updates, design polish)
-- Add translations or additional screenshots
+The application supports four user roles with different permissions:
 
-Suggested PR checklist:
-- Small, focused commits
-- Add screenshots for visual changes
-- Update README with any new commands or steps
+1. **👨‍🎓 Student** - Track personal progress and view analytics
+2. **👨‍🏫 Teacher** - Monitor student progress and manage class activities
+3. **🔐 Admin** - Manage departments and oversee teacher activities
+4. **🔑 Super Admin** - Full system control and configuration
 
-License & Contact
------------------
-This project is released under the MIT license.  
-Created with ❤️ by the Progress Tracker community.
+---
 
-If you want a custom README theme, updated badges, or embedded GIF demos, tell me which style (minimalist / creative / corporate) and I’ll generate a tailored README and optimized badge set.
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### How to Contribute
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open a Pull Request**
+
+### Contribution Guidelines
+
+- ✅ Write clear, concise commit messages
+- ✅ Add comments for complex logic
+- ✅ Update documentation as needed
+- ✅ Follow the existing code style
+- ✅ Test your changes thoroughly
+- ✅ Add screenshots for UI changes
+
+---
+
+## 🐛 Bug Reports & Feature Requests
+
+Found a bug or have a feature request? Please open an issue on GitHub:
+
+1. Go to the [Issues](https://github.com/Kamaleshkamalesh2005/Progress-Tracker-/issues) page
+2. Click "New Issue"
+3. Provide a clear title and detailed description
+4. Add relevant labels (bug, enhancement, etc.)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [React](https://reactjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide](https://lucide.dev/)
+- 3D graphics powered by [Three.js](https://threejs.org/)
+- Backend by [Supabase](https://supabase.com/)
+
+---
+
+## 📞 Contact & Support
+
+- **Repository**: [Kamaleshkamalesh2005/Progress-Tracker-](https://github.com/Kamaleshkamalesh2005/Progress-Tracker-)
+- **Issues**: [Report a bug or request a feature](https://github.com/Kamaleshkamalesh2005/Progress-Tracker-/issues)
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if you find it helpful!
+
+Made with ❤️ by the Progress Tracker Team
+
+</div>
