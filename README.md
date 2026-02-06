@@ -11,7 +11,7 @@ Table of contents
 - Tech Stack & Icons
 - Quick Install (Download & Run)
 - Download Screenshots
-- Contributing
+- Contributing 
 - License & Contact
 
 ---
